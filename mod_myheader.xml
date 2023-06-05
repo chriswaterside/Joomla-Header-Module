@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="3.0" client="site" method="upgrade">
+<extension type="module" version="4.0" client="site" method="upgrade">
     <name>My Header</name>
     <author>Chris Vaughan</author>
     <creationDate>26 April 2023</creationDate>
@@ -9,8 +9,9 @@
     <authorUrl>cevsystems.co.uk</authorUrl>
     <version>1.0.0</version>
     <description>This module displays a customizable header module</description>
+ 
     <updateservers>
-        <server type="extension" name="My Header Module" priority="1"></server>
+        <server type="extension" name="My Header Module" priority="1">https://raw.githubusercontent.com/chriswaterside/Joomla-Update-Server/main/myheader.xml</server>
     </updateservers>
     <files>
         <filename >mod_myheader.php</filename>
