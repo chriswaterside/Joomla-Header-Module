@@ -1,20 +1,19 @@
-/* RA Header Module */
 /* @module	MY Header */
 /* @author	Chris Vaughan */
 /* @website	cevsystems.co.uk */
 /* @copyright	Copyright (C) 2023 Chris Vaughan chris@cevsystems.co.uk All rights reserved. */
 
 
-div#ramblersheader {
+div.myheader {
     position: relative;
     width:100%;
     display: inline-block;
 }
-div#ramblersheader a{
+div.myheader a{
     padding-right: 0px;
 }
 
-div.ra_part {
+div.myheader.part {
     background-size:contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -22,11 +21,11 @@ div.ra_part {
 }
 
 @media only screen and (max-width: 768px){
-    div#ramblersheader {
+    div.myheader {
         background-image:none !important;
     }
 }
-div.ra_fullwidth {
+div.myheader.fullwidth {
     background-size:100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -34,7 +33,7 @@ div.ra_fullwidth {
 }
 
 @media only screen and (min-width: 800px){
-    h1#ramblerstitle {
+    h1.myheader.title {
         font-size:230%;
         font-weight: bold ;
         font-family:  Arial,Tahoma, sans-serif;
@@ -44,7 +43,7 @@ div.ra_fullwidth {
         margin-left: 120px
     }
     /* Set web site title line */
-    h2#ramblerssubtitle {
+    h2.myheader.subtitle {
         white-space:nowrap;
         font-size:130%;
         font-family:  Arial,Tahoma, sans-serif;
@@ -54,7 +53,7 @@ div.ra_fullwidth {
         margin-left: 160px;
     }
     /* Position Logo */
-    img#ralogo {
+    img.myheader.logo {
         float: left;
         margin-left: 10px;
         margin-right: 15px;
@@ -64,7 +63,7 @@ div.ra_fullwidth {
     }
 }
 @media only screen and (max-width: 800px){
-    h1#ramblerstitle {
+    h1.myheader.title {
         font-size:230%;
         font-weight: bold ;
         font-family:  Arial,Tahoma, sans-serif;
@@ -74,7 +73,7 @@ div.ra_fullwidth {
         margin-left: 120px
     }
     /* Set web site title line */
-    h2#ramblerssubtitle {
+    h2.myheader.subtitle {
         white-space:nowrap;
         font-size:130%;
         font-family:  Arial,Tahoma, sans-serif;
@@ -84,7 +83,7 @@ div.ra_fullwidth {
         margin-left: 160px;
     }
     /* Position Logo */
-    img#ralogo {
+    img.myheader.logo {
         float: left;
         margin-left: 10px;
         margin-right: 15px;
@@ -94,7 +93,7 @@ div.ra_fullwidth {
     }
 }
 @media only screen and (max-width: 768px){
-    h1#ramblerstitle {
+    h1.myheader.title {
         font-size:180%;
         font-weight: bold ;
         font-family:  Arial,Tahoma, sans-serif;
@@ -105,7 +104,7 @@ div.ra_fullwidth {
         margin-left: 55px
     }
     /* Set web site title line */
-    h2#ramblerssubtitle {
+    h2.myheader.subtitle {
         white-space:nowrap;
         font-size:100%;
         font-family:  Arial,Tahoma, sans-serif;
@@ -115,7 +114,7 @@ div.ra_fullwidth {
         margin-left: 55px;
     }
     /* Position Logo */
-    img#ralogo {
+    img.myheader.logo {
         float: right;
         border: 0 none;
         height: auto;
