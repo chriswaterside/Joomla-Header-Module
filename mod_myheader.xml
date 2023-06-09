@@ -2,7 +2,7 @@
 <extension type="module" version="4.0" client="site" method="upgrade">
     <name>My Header</name>
     <author>Chris Vaughan</author>
-    <creationDate>26 April 2023</creationDate>
+    <creationDate>9 June 2023</creationDate>
     <copyright>Copyright (C) 2023 Chris Vaughan</copyright>
     <license>This extension in released under the GNU/GPL License</license>
     <authorEmail>chris@cevsystems.co.uk</authorEmail>
