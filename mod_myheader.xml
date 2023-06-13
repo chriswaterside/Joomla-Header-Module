@@ -30,9 +30,11 @@
                 <field name="header_margin_top" type="integer" default="0" label="HEADER_MARGIN_TOP" description="HEADER_MARGIN_TOP_DESC" first="0" last="200" step="1" />
                 <field name="website_title" type="text" default="" size="100" label="WEBSITE_TITLE" description="WEBSITE_TITLE_DESC" />
                 <field name="title_color" type="color" default="#000000" label="TITLE_COLOR" description="TITLE_COLOR_DESC" />
-                <field name="website_subtitle" type="text" default="" size="100" label="WEBSITE_SUBTITLE" description="WEBSITE_SUBTITLE_DESC" />
+                <field name="title_left" type="integer" default="120" label="Title left margin" description="SPace on left of title" first="0" last="300" step="1" />
+               <field name="website_subtitle" type="text" default="" size="100" label="WEBSITE_SUBTITLE" description="WEBSITE_SUBTITLE_DESC" />
                 <field name="subtitle_color" type="color" default="#000000" label="SUBTITLE_COLOR" description="SUBTITLE_COLOR_DESC" />
-            </fieldset>
+                <field name="subtitle_left" type="integer" default="160" label="Subtitle left margin" description="Sapce on left of subtitle" first="0" last="300" step="1" />
+           </fieldset>
             <fieldset name="logo">	
                 <field type="spacer" name="logo_section" class="text" label="LOGO_SECTION" />
                 <field name="logo_image" type="media" directory="images" label="LOGO_IMAGE" description="LOGO_IMAGE_DESC" />

@@ -45,6 +45,12 @@ if ($limage != '') {
     $text = "img.myheader.logo { height:" . $height . "px; }";
     $document->addStyleDeclaration($text);
 }
+$tl = $params->get('title_left');
+$stl = $params->get('subtitle_left');
+$text = ":root { "
+        . " --myheadertitleleftmargin: " . $tl . "px;"
+        . " --myheadersubtitleleftmargin: " . $stl . "px;}";
+$document->addStyleDeclaration($text);
 
 // Title
 $website_title = $params->get('website_title');

@@ -3,7 +3,6 @@
 /* @website	cevsystems.co.uk */
 /* @copyright	Copyright (C) 2023 Chris Vaughan chris@cevsystems.co.uk All rights reserved. */
 
-
 div.myheader {
     position: relative;
     width:100%;
@@ -40,7 +39,7 @@ div.myheader.fullwidth {
         text-shadow: none;
         margin-top: 20px;
         margin-bottom: 0px;
-        margin-left: 120px
+        margin-left: var(--myheadertitleleftmargin)
     }
     /* Set web site title line */
     h2.myheader.subtitle {
@@ -50,7 +49,7 @@ div.myheader.fullwidth {
         text-shadow: none;
         line-height: 100%;
         margin-top: 5px;
-        margin-left: 160px;
+        margin-left: var(--myheadersubtitleleftmargin);
     }
     /* Position Logo */
     img.myheader.logo {
@@ -70,7 +69,7 @@ div.myheader.fullwidth {
         text-shadow: none;
         margin-top: 20px;
         margin-bottom: 0px;
-        margin-left: 120px
+        margin-left: var(--myheadertitleleftmargin)
     }
     /* Set web site title line */
     h2.myheader.subtitle {
@@ -80,7 +79,7 @@ div.myheader.fullwidth {
         text-shadow: none;
         line-height: 100%;
         margin-top: 5px;
-        margin-left: 160px;
+        margin-left: var(--myheadersubtitleleftmargin);
     }
     /* Position Logo */
     img.myheader.logo {
