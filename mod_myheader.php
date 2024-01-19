@@ -11,7 +11,11 @@
 // no direct access
 defined( "_JEXEC" ) or die( "Restricted access" );
 
-$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
+$class = $params->get('moduleclass_sfx');
+if ($class === null) {
+    $class = '';
+}
+$moduleclass_sfx = htmlspecialchars($class);
 
 require(JModuleHelper::getLayoutPath('mod_myheader', $params->get('layout', 'default')));
 
